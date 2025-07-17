@@ -1,0 +1,20 @@
+[package]
+name = "kps9566_rs"
+version = "0.1.0"
+edition = "2021"
+description = "KPS 9566 부호화방식 서고"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT OR Apache-2.0"
+keywords = ["encoding", "korean", "kps9566", "charset"]
+categories = ["encoding", "text-processing"]
+default-run = "kps9566convert"
+
+[lib]
+name = "kps9566_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kps9566convert"
+path = "src/main.rs"
+
+[dependencies]
